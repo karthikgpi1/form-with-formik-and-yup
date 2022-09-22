@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import { Signup } from "./components/Signup";
 import rocketImg from "./file/rocket.png";
 
@@ -9,7 +10,7 @@ export default function App() {
         <div className="col-md-5">
           <Signup />
         </div>
-        <div className="col-md-5">
+        <div className="col-md-7 my-auto">
           <img className="img-fluid w-100" src={rocketImg} alt="" />
         </div>
       </div>
