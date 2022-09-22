@@ -1,5 +1,5 @@
 import React from "react";
-import Signup from "./components/Signup";
+import { Signup } from "./components/Signup";
 import rocketImg from "./file/rocket.png";
 
 export default function App() {
